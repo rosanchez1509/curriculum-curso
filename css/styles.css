@@ -1,0 +1,13 @@
+header {
+    margin-top: 5%;
+}
+
+#foto-personal {
+    width: 45vh;
+    height: 45vh;
+    border-radius: 50%;
+}
+
+.item-menu {
+    display: grid;
+}
