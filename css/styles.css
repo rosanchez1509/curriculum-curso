@@ -34,3 +34,7 @@ header {
     margin-top: 1%;
     background-color: pink;
 }
+
+.oculto {
+    display: none;
+}
