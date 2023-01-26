@@ -29,7 +29,6 @@ header {
     color: blanchedalmond;
 }
 
-
 #footer {
     margin-top: 1%;
     background-color: pink;
@@ -37,4 +36,9 @@ header {
 
 .oculto {
     display: none;
+}
+
+.link-activo {
+    background-color:palevioletred;
+    color: blanchedalmond;
 }

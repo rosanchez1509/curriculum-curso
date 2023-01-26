@@ -1,17 +1,21 @@
-function mostrarSeccion(id) {
-    let elementosActivos = document.getElementsByClassName('activo');
-    // for (let i = 0; i < elementosActivos.length; i++) {
-    //     elementosActivos[i].classList.remove('activo');
-    //     elementosActivos[i].classList.add('oculto');
-    // }
+function mostrarSeccion(idSeccion, idLink) {
+    let seccionesActivas = document.getElementsByClassName('activo');
 
-    for (let elementoActivo of elementosActivos) {
-        elementoActivo.classList.remove('activo');
-        elementoActivo.classList.add('oculto');
+    for (let seccion of seccionesActivas) {
+        seccion.classList.remove('activo');
+        seccion.classList.add('oculto');
     }
 
-    let elemento = document.getElementById(id);
-    elemento.classList.remove('oculto');
-    elemento.classList.add('activo');
-    
+    let linksActivos = document.getElementsByClassName('link-activo');
+
+    for (let link of linksActivos) {
+        link.classList.remove('link-activo');
+    }
+
+    let seccionAMostrar = document.getElementById(idSeccion);
+    seccionAMostrar.classList.remove('oculto');
+    seccionAMostrar.classList.add('activo');
+
+    let linkAActivar = document.getElementById(idLink);
+    linkAActivar.classList.add('link-activo');
 }
