@@ -16,6 +16,10 @@ header {
     border-radius: 50%;
 }
 
+.col-8 {
+    margin: auto;
+}
+
 .item-menu {
     padding: 8%;
     display: grid;
@@ -32,6 +36,16 @@ header {
 #footer {
     margin-top: 1%;
     background-color: pink;
+}
+
+.footer-sections {
+    display: flex;
+    margin: 1%;
+    text-align: center;
+}
+
+.fa-brands .fa-instagram {
+    color: black;
 }
 
 .oculto {
