@@ -3,7 +3,6 @@
 }
 
 header {
-    padding: 1%;
     margin-bottom: 1%;
     background-color: pink;
 }
@@ -40,12 +39,8 @@ header {
 
 .footer-sections {
     display: flex;
-    margin: 1%;
+    margin: 3px;
     text-align: center;
-}
-
-.fa-brands .fa-instagram {
-    color: black;
 }
 
 .oculto {

@@ -1,3 +1,7 @@
+document.addEventListener("DOMContentLoaded", function(event) {
+    mostrarSeccion('sobre-mi', 'sobre-mi-link');
+});
+
 function mostrarSeccion(idSeccion, idLink) {
     let seccionesActivas = document.getElementsByClassName('activo');
 
